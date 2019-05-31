@@ -64,3 +64,76 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+body {
+	width: 1200px;
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-top: 50px;
+}
+nav {
+	width: 800px;
+	height: 25px;
+	display: inline-block;
+}
+nav a {
+	color: grey;
+	margin: 20px;
+	padding: 20px;
+}
+.logo{
+	width: 200px;
+	display: inline-block;
+}
+h1 {
+	height: 400px;
+	width: 400px;
+	font-size: 8em;
+	text-wrap: normal;
+	text-align: center;
+	display: inline-block;
+}/*I saw the 'em' measurement on a website and decided to use it to try to get my header to cooperate as far as font size*/
+button {
+	border: 1px solid black;
+	width: 150px;
+	height: 40px;
+	padding: 8px;
+	font-family: Calibri;
+	font-size: 12.5pt;
+	background: snow;
+}/*As of yet I'm unsure how to get this button to display directly under the h1*/
+.accentImage{
+	display: inline-block;
+	margin: 30px;
+}
+.middle-img{
+	display: block;
+	margin: auto;
+}
+.section1{
+	border-bottom: 1px solid black;
+	padding: 50px;
+}
+.section2{
+	padding: 25px;
+	border-bottom: 1px solid black;
+}
+.section3{
+	padding: 25px;
+}
+.divSetOne{
+	width: 500px;
+	margin: 25px;
+	height: 150px;
+	display: inline-block;
+}
+.divSetTwo{
+	width: 320px;
+	margin: 25px;
+	height: 125px;
+	display: inline-block;
+}
+#Copyright {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+} /*I attempted a couple of different ways to get this piece to center none of which worked*/
