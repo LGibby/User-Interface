@@ -65,23 +65,20 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 body {
-	width: 1200px;
-	margin-left: 50px;
-	margin-right: 50px;
-	margin-top: 50px;
+	width: 800px;
+	margin: 50px auto;
 }
 nav {
-	width: 800px;
+	width: 80%;
 	height: 25px;
 	display: inline-block;
 }
 nav a {
 	color: grey;
 	margin: 20px;
-	padding: 20px;
 }
 .logo{
-	width: 200px;
+	width: 20%;
 	display: inline-block;
 }
 h1 {
