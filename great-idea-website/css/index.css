@@ -104,28 +104,30 @@ button {
 }
 .middle-img{
 	display: block;
-	margin: auto;
+	width: 100%;
 }
 .section1{
 	border-bottom: 1px solid black;
 	padding: 50px;
 }
 .section2{
+	width: 100%;
 	padding: 25px;
 	border-bottom: 1px solid black;
 }
 .section3{
+	width: 100%;
 	padding: 25px;
 }
 .divSetOne{
-	width: 500px;
-	margin: 25px;
-	height: 150px;
+	width: 47%;
+	margin: 10px;
+	height: 125px;
 	display: inline-block;
 }
 .divSetTwo{
-	width: 320px;
-	margin: 25px;
+	width: 30%;
+	margin: 10px;
 	height: 125px;
 	display: inline-block;
 }
