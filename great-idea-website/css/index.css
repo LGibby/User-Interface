@@ -67,58 +67,72 @@ h1, h2, h3, h4, h5 {
 body {
 	width: 800px;
 	margin: 50px auto;
+}/*fixed width and top bottom margin*/
+.heading{
+	width: 100%;
+	display: block;
 }
 nav {
-	width: 80%;
+	width: 75%;
 	height: 25px;
 	display: inline-block;
+	margin-bottom: 30px;
 }
 nav a {
 	color: grey;
-	margin: 20px;
-}
+	padding: 15px;
+}/*fixed spacing*/
 .logo{
 	width: 20%;
 	display: inline-block;
 }
+.slogan{
+	display: inline-block;
+	width: 47%;
+}
 h1 {
-	height: 400px;
-	width: 400px;
-	font-size: 8em;
+	height: 375px;
+	width: 250px;
+	font-size: 6em;
 	text-wrap: normal;
 	text-align: center;
 	display: inline-block;
-}/*I saw the 'em' measurement on a website and decided to use it to try to get my header to cooperate as far as font size*/
+}
 button {
+	display: block;
 	border: 1px solid black;
+	border-radius: 15px;
 	width: 150px;
 	height: 40px;
 	padding: 8px;
 	font-family: Calibri;
 	font-size: 12.5pt;
 	background: snow;
-}/*As of yet I'm unsure how to get this button to display directly under the h1*/
+}
 .accentImage{
+	width: 47%;
 	display: inline-block;
-	margin: 30px;
+	margin: 20px;
 }
 .middle-img{
 	display: block;
 	width: 100%;
-}
-.section1{
+}/*fixed width*/
+.top-content{
+	width: 100%;
+	display: inline-block;
 	border-bottom: 1px solid black;
-	padding: 50px;
+	padding: 20px;
 }
-.section2{
+.middle-content{
 	width: 100%;
 	padding: 25px;
 	border-bottom: 1px solid black;
-}
-.section3{
+}/**/
+.bottom-content{
 	width: 100%;
 	padding: 25px;
-}
+}/**/
 .divSetOne{
 	width: 47%;
 	margin: 10px;
@@ -132,7 +146,5 @@ button {
 	display: inline-block;
 }
 #Copyright {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-} /*I attempted a couple of different ways to get this piece to center none of which worked*/
+
+}
